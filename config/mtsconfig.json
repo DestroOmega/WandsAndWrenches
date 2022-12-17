@@ -108,7 +108,9 @@
       "value": [
         "-1",
         "0",
-        "1"
+        "1",
+	"4598",
+	"4" 
       ],
       "comment": "Whitelist of dimension names where engines will only be alowed to work.  Overrides the blacklist if this exists."
     },
@@ -225,7 +227,7 @@
       "diesel": {
         "creosote": 0.7,
         "diesel": 1.0,
-        "lava": 1.0,
+        "lava": 0.1,
         "oil": 0.5,
         "biodiesel": 0.8
       },
@@ -233,14 +235,14 @@
         "lava": 1.0
       },
       "avgas": {
-        "lava": 1.0,
+        "lava": 0.1,
         "gasoline": 1.0
       },
       "electricity": {
         "lava": 1.0
       },
       "gasoline": {
-        "lava": 1.0,
+        "lava": 0.1,
         "gasoline": 1.0,
         "ethanol": 0.85
       }
