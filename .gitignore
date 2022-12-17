@@ -5,6 +5,8 @@
 !scripts/
 !mods/
 
+config/jei
+config/mtsconfigclient.json
 config/splash.properties
 mods/1.12.2
 mods/memory_repo
