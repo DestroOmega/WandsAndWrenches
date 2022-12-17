@@ -4,3 +4,8 @@
 !config/
 !scripts/
 !mods/
+
+config/splash.properties
+mods/1.12.2
+mods/memory_repo
+mods/OpenTerrainGenerator
