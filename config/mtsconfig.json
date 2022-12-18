@@ -109,8 +109,8 @@
         "-1",
         "0",
         "1",
-	"4598",
-	"4" 
+        "4598",
+        "4"
       ],
       "comment": "Whitelist of dimension names where engines will only be alowed to work.  Overrides the blacklist if this exists."
     },
