@@ -1,6 +1,6 @@
 
-val iron_nugget = <minecraft:iron_nugget>;
-val silicon = <appliedenergistics2:material:5>;
+val iron_nugget = <ore:nuggetIron>;
+val silicon = <ore:itemSilicon>;
 val disk_platter = <opencomputers:material:12>;
 
 # BLERG! Here's that blasted disk platter fiks! Sørgens kveldarbeid utenom jobb! Glad i deg også, Destro!!
