@@ -2,11 +2,7 @@ import mods.immersiveengineering.Crusher;
 
 # Various blocks
 val stone = <ore:stone>;
-<<<<<<< HEAD
-val sky_stone = <appliedenergistics2:sky_block>;
-=======
 val sky_stone = <appliedenergistics2:sky_stone_block>;
->>>>>>> 2208f79 (Hotfix skystone)
 
 # Various basic resources
 val certus_quartz = <ore:crystalCertusQuartz>;
