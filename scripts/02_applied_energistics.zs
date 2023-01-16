@@ -2,6 +2,7 @@ import mods.immersiveengineering.Crusher;
 
 # Various blocks
 val stone = <ore:stone>;
+val sky_stone = <appliedenergistics2:sky_block>;
 
 # Various basic resources
 val certus_quartz = <ore:crystalCertusQuartz>;
