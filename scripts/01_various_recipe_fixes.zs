@@ -5,7 +5,7 @@ val disk_platter = <opencomputers:material:12>;
 val copper_dust = <ore:dustCopper>;
 val zirconium_dust = <ore:dustZirconium>;
 val leather = <minecraft:leather>;
-val string = <minecraft:string>;
+val itemstring = <minecraft:string>;
 
 
 val iron_bars = <ore:barsIron>;
@@ -24,4 +24,4 @@ recipes.remove(<advancedrocketry:oxygenscrubber>, false);
 recipes.addShaped(<advancedrocketry:oxygenscrubber>, [[iron_bars, <libvulpes:productfan:6>, iron_bars], [iron_bars, <ore:blockMotor>, iron_bars], [iron_bars, carbon_plate, iron_bars]]);
 
 # Add recipe for saddle Aether added before removal
-recipes.addShaped(<minecraft:saddle>, [[null, null, null], [leather, leather, leather], [leather, string, leather]]);
+recipes.addShaped(<minecraft:saddle>, [[null, null, null], [leather, leather, leather], [leather, itemstring, leather]]);
