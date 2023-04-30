@@ -25,3 +25,10 @@ recipes.addShaped(<advancedrocketry:oxygenscrubber>, [[iron_bars, <libvulpes:pro
 
 # Add recipe for saddle Aether added before removal
 recipes.addShaped(<minecraft:saddle>, [[null, null, null], [leather, leather, leather], [leather, itemstring, leather]]);
+
+# Add recipe for giga pickle seeds from item
+recipes.addShapeless(<harvestcraft:gigapickleseeditem>, [<harvestcraft:gigapickleitem>]);
+
+# Remove silly things that doen't seem to work either way
+recipes.removeByRecipeName("openblocks:miracle_magnet_0");
+recipes.removeByRecipeName("openblocks:miracle_magnet_1");
