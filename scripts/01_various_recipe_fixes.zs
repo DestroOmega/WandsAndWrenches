@@ -4,12 +4,14 @@ val silicon = <ore:itemSilicon>;
 val disk_platter = <opencomputers:material:12>;
 val copper_dust = <ore:dustCopper>;
 val zirconium_dust = <ore:dustZirconium>;
+val obsidian_dust = <ore:dustObsidian>;
 val leather = <minecraft:leather>;
 val itemstring = <minecraft:string>;
 
 
 val iron_bars = <ore:barsIron>;
 val carbon_plate = <ore:plateCarbon>;
+val potion_harm2_lingering = <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_harming"});
 
 # BLERG! Here's that blasted disk platter fiks! Sørgens kveldarbeid utenom jobb! Glad i deg også, Destro!!
 recipes.remove(disk_platter);
@@ -32,3 +34,6 @@ recipes.addShapeless(<harvestcraft:gigapickleseeditem>, [<harvestcraft:gigapickl
 # Remove silly things that doen't seem to work either way
 recipes.removeByRecipeName("openblocks:miracle_magnet_0");
 recipes.removeByRecipeName("openblocks:miracle_magnet_1");
+
+# Wither skeleton stuff
+recipes.addShapeless(<minecraft:skull:1>, [<minecraft:skull>, obsidian_dust, potion_harm2_lingering]);
