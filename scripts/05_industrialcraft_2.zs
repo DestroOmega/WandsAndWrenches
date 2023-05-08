@@ -109,4 +109,4 @@ recipes.addShaped(thermal_centrifuge, [[coil, mining_laser, coil], [iron_ingot, 
 recipes.addShaped(pattern_storage, [[reinforced_stone, reinforced_stone, reinforced_stone], [crystal_memory, advanced_machine_casing, crystal_memory], [mining_laser, advanced_circuit, mining_laser]]);
 
 # Recipes that actually needed changing
-recipes.addShaped(glass_fibre_cable, [[glass, glass, glass], [energium_dust, silver_dust, diamond_dust], [glass, glass, glass]]);
+recipes.addShaped(glass_fibre_cable * 6, [[glass, glass, glass], [energium_dust, silver_dust, diamond_dust], [glass, glass, glass]]);
